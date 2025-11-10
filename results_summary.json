@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "user": "i212680",
+    "date": "2025-11-09",
+    "timestamp": "2025-11-09T18:57:15.517075",
+    "dataset": "Legal Clause Similarity",
+    "vocab_size": 10000,
+    "max_sequence_length": 100,
+    "batch_size": 128
+  },
+  "bilstm": {
+    "parameters": 1452801,
+    "epochs_trained": 5,
+    "final_train_accuracy": 0.9731006026268005,
+    "final_val_accuracy": 0.7519553303718567,
+    "test_accuracy": 0.7463687150837989,
+    "test_precision": 0.6917808219178082,
+    "test_recall": 0.7670886075949367,
+    "test_f1": 0.7274909963985594,
+    "test_roc_auc": 0.8476630098452884
+  },
+  "attention": {
+    "parameters": 1469441,
+    "epochs_trained": 6,
+    "final_train_accuracy": 0.8869609832763672,
+    "final_val_accuracy": 0.694972038269043,
+    "test_accuracy": 0.6953445065176909,
+    "test_precision": 0.6436961628817541,
+    "test_recall": 0.6936708860759494,
+    "test_f1": 0.6677497969130788,
+    "test_roc_auc": 0.7711533052039381
+  },
+  "comparison": {
+    "winner": "BiLSTM",
+    "best_f1": 0.7274909963985594,
+    "improvement_percent": 8.946644351171125
+  }
+}
